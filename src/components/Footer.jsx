@@ -37,7 +37,6 @@ const Footer = () => {
           <motion.h3 className='text-2xl font-light'>Sustainability</motion.h3>
         </div>
 
-        {/** Column for Join Us **/}
         <div className="part">
           <motion.h1 className="text-4xl font-medium mb-2" >JOIN US</motion.h1>
           <motion.h3 className='text-2xl font-light'>Nike App</motion.h3>
@@ -45,7 +44,6 @@ const Footer = () => {
           <motion.h3 className='text-2xl font-light'>Nike Training Club</motion.h3>
         </div>
 
-        {/** Column for Social Links **/}
         <div className="part">
           <motion.h1 className="text-4xl font-medium mb-2" >SOCIAL</motion.h1>
           <div className="social-links flex gap-4 text-3xl">

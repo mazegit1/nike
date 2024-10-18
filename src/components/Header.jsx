@@ -27,7 +27,7 @@ const Header = () => {
 
   return (
     <>
-      <div className="header fixed w-full bg-white shadow-xl flex items-center justify-between  md:px-48 px-12 py-2 z-10">
+      <div className="header fixed w-full bg-white shadow-2xl flex items-center justify-between  md:px-48 px-12 py-2 z-10">
         <div className="header-left">
 
          <a href="/">          <SiNike className='text-4xl md:text-7xl' />
@@ -44,9 +44,9 @@ const Header = () => {
         {/* Middle navigation links - hidden on mobile */}
         <div className={`header-mid text-xl py-4 md:text-3xl flex-col md:flex-row md:flex items-center gap-6 md:gap-12 absolute md:static w-full md:w-auto top-16 md:top-auto ${menuOpen ? 'flex' : 'hidden'} md:flex bg-transparent backdrop-blur-xl md:bg-transparent text-gray-700 text-xl shadow-xl md:shadow-none `}>
           <a href="/new-arrivals">New arrivals</a>
-          <a href="#gender">Men</a>
-          <a href="#gender">Women</a>
-          <a href="#gender">Kids</a>
+          <a href="#men">Men</a>
+<a href="#women">Women</a>
+<a href="#kids">Kids</a>
           <a href="#collection">Collection</a>
         </div>
 
