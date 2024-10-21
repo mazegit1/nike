@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Landing from './pages/Landing';
+import Landing from './pages/Landing'; // Adjust the path if necessary
 import NewArrivals from './pages/NewArrivals';
 import Product from './pages/Product';
 import Header from './components/Header';
