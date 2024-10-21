@@ -1,23 +1,21 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Landing from './pages/Landing'; // Adjust the path if necessary
+import Landing from './pages/Landing';
 import NewArrivals from './pages/NewArrivals';
-import Product from './pages/Product';
+import Collection from './pages/Collection';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Cart from './components/Cart';
+
 const App = () => {
   return (
    <div className='transition-all ease-in-out duration-200'>
     <Router>
-      <Header cartItems={cartItems}/>
+      <Header />
       
       <Routes>
-        <Route path="/"  element={<Landing addToCart={addToCart} />} />
+        <Route path="/" element={<Landing />} />
         <Route path="/new-arrivals" element={<NewArrivals />} />
-        <Route path="/product" element={<Product />} />
-        <Route path="/cart" element={<Cart cartItems={cartItems} removeFromCart={removeFromCart} />} />
-
+        <Route path="/collection" element={<Collection />} />
       </Routes>
       
       <Footer />
